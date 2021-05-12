@@ -1,0 +1,141 @@
+/*  ======================       ROBOTO FONT   ========================   */
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf) format('ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf) format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+
+/*  ======================       CORMORANT FONT   ========================   */
+@font-face {
+    font-family: 'Cormorant';
+    src: url(../fonts/Cormorant-Regular.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Cormorant';
+    src: url(../fonts/Cormorant-Light.ttf) format('ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Cormorant';
+    src: url(../fonts/Cormorant-SemiBold.ttf) format('ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Cormorant';
+    src: url(../fonts/Cormorant-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+
+
+body{
+    font-family: 'Cormorant', serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Roboto';  
+}
+
+nav{
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+nav .nav-bar{
+    margin: auto 0;
+}
+
+.nav-bar a{
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-icon{
+    width: 25px;
+    height: 25px;
+    margin:  auto 0;
+}
+
+
+.main-image{
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+
+.context{
+    color: #fff;
+    max-width: 38%;
+    margin-left: 2%;
+    margin-right: 5%;
+    position: absolute;
+    top: 35%;
+}
+
+.CTA{
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #fff;
+    padding: 4%;
+    background-color: #D7263D;
+    border-radius:70px;
+    border: hidden;
+    box-shadow: #D7263D;
+    margin: 10px 5px;
+}
+
+.CTA-video::before{
+    content: '';
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: url(../icons/play-button.svg);
+    color: #fff;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin : 0 10px;
+
+    
+}
+
+.CTA-video{
+    
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #000;
+    
+    background-color: transparent;
+    border-radius:70px;
+    box-sizing: border-box;
+    border: 1px solid black ;
+    box-sizing: border-box;
+    margin: 10px 5px;
+    padding: 3%;
+}
