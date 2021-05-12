@@ -1,56 +1,69 @@
-/*  ======================       ROBOTO FONT   ========================   */
+/*  ======================       MONTSERRAT FONT   ========================   */
 @font-face {
-    font-family: 'Roboto';
-    src: url(../fonts/Roboto-Regular.ttf) format('ttf');
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf) format('ttf');
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url(../fonts/Roboto-Light.ttf) format('ttf');
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Light.ttf) format('ttf');
     font-weight: 300;
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url(../fonts/Roboto-Medium.ttf) format('ttf');
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf) format('ttf');
     font-weight: 500;
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url(../fonts/Roboto-Bold.ttf) format('ttf');
-    font-weight: 700;
-}
-
-/*  ======================       CORMORANT FONT   ========================   */
-@font-face {
-    font-family: 'Cormorant';
-    src: url(../fonts/Cormorant-Regular.ttf) format('ttf');
-}
-@font-face {
-    font-family: 'Cormorant';
-    src: url(../fonts/Cormorant-Light.ttf) format('ttf');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Cormorant';
-    src: url(../fonts/Cormorant-SemiBold.ttf) format('ttf');
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf) format('ttf');
     font-weight: 600;
 }
 @font-face {
-    font-family: 'Cormorant';
-    src: url(../fonts/Cormorant-Bold.ttf) format('ttf');
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+
+/*  ======================       PLAYFAIR DISPLAY FONT   ========================   */
+@font-face {
+    font-family: 'PlayFair Display';
+    src: url(../fonts/PlayFairDisplay-Regular.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'PlayFair Display';
+    src: url(../fonts/PlayFairDisplay-Medium.ttf) format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'PlayFair Display';
+    src: url(../fonts/PlayFairDisplay-SemiBold.ttf) format('ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'PlayFair Display';
+    src: url(../fonts/PlayFairDisplay-Bold.ttf) format('ttf');
     font-weight: 700;
 }
 
 
 body{
-    font-family: 'Cormorant', serif;
+    position:static;
+    font-family: 'PlayFair Display', serif;
     width: 100%;
     height: 100vh;
     margin: 0;
     justify-content: space-between;
 }
 
+
+/*===================================================================================*/
+                                /*     HERO AREA     */
+/*===================================================================================*/
+
 .logo{
-    font-family: 'Roboto';  
+    font-family: 'Montserrat';  
+    letter-spacing: 8px;
+    cursor: pointer;
 }
 
 nav{
@@ -68,7 +81,7 @@ nav .nav-bar{
 
 .nav-bar a{
     color: #fff;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: 300;
     text-decoration: none;
     margin-left: 10px;
@@ -89,27 +102,39 @@ nav .nav-bar{
 }
 
 .context{
-    color: #fff;
+    color: #000;
     max-width: 38%;
     margin-left: 2%;
     margin-right: 5%;
     position: absolute;
-    top: 35%;
+    top: 30%;
+}
+
+.context-paragraph{
+    margin: 5% 0;
 }
 
 .CTA{
     width: 40%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #fff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #151515;
     padding: 4%;
-    background-color: #D7263D;
+    background-color: #FFD600;
     border-radius:70px;
     border: hidden;
-    box-shadow: #D7263D;
+
     margin: 10px 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
+
+.CTA:hover {
+    background-color: #151515;
+    box-shadow: 0px 15px 20px rgba(29, 129, 89, 0.4);
+    color: #fff;
+  }
 
 .CTA-video::before{
     content: '';
@@ -121,21 +146,58 @@ nav .nav-bar{
     width: 25px;
     height: 25px;
     margin : 0 10px;
-
-    
 }
 
 .CTA-video{
-    
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
+    text-transform: uppercase;
     color: #000;
-    
+    font-weight: 500;
     background-color: transparent;
     border-radius:70px;
     box-sizing: border-box;
     border: 1px solid black ;
     box-sizing: border-box;
-    margin: 10px 5px;
+    margin: 10px 5px ;
     padding: 3%;
 }
+
+.CTA-video:hover {
+    background-color: #fff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    border : transparent;
+    color: #000;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
