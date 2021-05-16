@@ -24,6 +24,29 @@
     font-weight: 700;
 }
 
+/*  ======================       Playfair Display FONT   ========================   */
+@font-face {
+    font-family: 'PlayFair Display';
+    src: url(../fonts/PlayfairDisplay-Regular.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Medium.ttf) format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-SemiBold.ttf) format('ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+
+
+
 body{
     color: #313131;
     width: 100%;
@@ -400,4 +423,27 @@ nav .nav-bar{
     padding-top: 2%;
     margin: 0;
     background-color: #efefef;
+}
+
+
+
+
+
+
+
+
+
+
+.section-title span{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+    white-space:pre;
+}
+
+
+.section-title span.fade{
+    opacity: 1;
+    transform: translateY(0px);
 }
