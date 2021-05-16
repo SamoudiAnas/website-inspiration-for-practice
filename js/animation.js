@@ -29,7 +29,7 @@ let char2 = 0;
     
 
 let timer = setInterval(onTick, 250);
-let timer2 = setInterval(onTick2, 1000);
+
 
 function onTick(){
     let span = section_title_1.querySelectorAll("span")[char];
@@ -54,7 +54,7 @@ function onTick2(){
 function complete(){
     clearInterval(timer);
     timer = null;
-    
+    let timer2 = setInterval(onTick2, 250);
 }
 
 function complete2(){
