@@ -23,14 +23,12 @@ for(let i = 0; i < text2.length ; i++) {
     
 }
 
+
 let char = 0;
 let char2 = 0;
 
-    
-
-let timer = setInterval(onTick, 250);
-
-
+let timer = setInterval(onTick, 150);
+let timer2;
 function onTick(){
     let span = section_title_1.querySelectorAll("span")[char];
     span.classList.add("fade");
@@ -54,7 +52,7 @@ function onTick2(){
 function complete(){
     clearInterval(timer);
     timer = null;
-    let timer2 = setInterval(onTick2, 250);
+    timer2 = setInterval(onTick2, 150);
 }
 
 function complete2(){

@@ -259,6 +259,61 @@ nav .nav-bar{
 }
 
 
+/*                              MEDIA QUERY FOR HEADER                        */
+@media screen and (max-width: 960px){
+    .context{
+        max-width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+    
+}
+
+@media screen and (max-width:756px){
+    .context{
+        max-width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  ======================      SECTION         ========================   */
 
 .section{
@@ -424,11 +479,6 @@ nav .nav-bar{
     margin: 0;
     background-color: #efefef;
 }
-
-
-
-
-
 
 
 
