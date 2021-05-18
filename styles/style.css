@@ -93,8 +93,28 @@ nav .nav-bar{
 }
 
 .nav-bar a:hover{
-    color: #313131;
+    color: #FFD600;
 }
+
+@media screen and (max-width: 396px){
+    .logo{
+        margin-top: 2%;
+    }
+    
+    .nav-bar a{
+        opacity: 0;
+    }
+    
+
+
+    .container .slider .row{
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
 
 
 .menu-icon{
@@ -437,6 +457,13 @@ nav .nav-bar{
     margin: 5% 0;
 }
 
+
+.section-cta:hover{
+    background-color: #313131;
+    border: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
 
 
 
