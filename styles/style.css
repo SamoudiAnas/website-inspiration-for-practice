@@ -61,6 +61,7 @@ header{
     position: relative;
     height: 100vh;
     width: 100%;
+   
 }
 
 .logo{
@@ -188,7 +189,9 @@ nav .nav-bar{
 
 
 .slider{
+    width: 50%;
     position: absolute;
+    right: 20%;
     bottom: 10%;
 }
 
@@ -259,13 +262,18 @@ nav .nav-bar{
 }
 
 
-/*                              MEDIA QUERY FOR HEADER                        */
+
+
+
 @media screen and (max-width: 960px){
     .context{
         max-width: 50%;
     }
 
+    .slider{
+        width: 60%;
 
+    }
 
 
 
@@ -282,6 +290,12 @@ nav .nav-bar{
     }
 
 
+
+    .slider{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 
@@ -331,7 +345,7 @@ nav .nav-bar{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    text-align: center;
     border-radius: 15px;
 }
 
@@ -422,6 +436,54 @@ nav .nav-bar{
     padding-right: 20%;
     margin: 5% 0;
 }
+
+
+
+
+/*                              MEDIA QUERY FOR Section 1                         */
+@media screen and (max-width: 992px){
+
+    .section{
+        height: 30vh;
+        margin-left: auto;
+
+    }
+
+    .section-title{
+        max-width: 80%;
+        font-size: 1.5em;
+    }
+
+    .section-img, .grey-shadow{
+        margin-right: 2%;
+    }
+
+    .grey-shadow{
+        margin-left: 4%;
+    }
+    
+}
+
+@media screen and (max-width: 960px){
+
+    .footer{
+        width: 100%;
+        margin: 0 2%;
+    }
+
+    .footer .row{
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+
+
+
+
+
 
 
 /*  ======================      FOOTER         ========================   */
