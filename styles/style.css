@@ -211,7 +211,7 @@ nav .nav-bar{
 .slider{
     width: 50%;
     position: absolute;
-    right: 20%;
+    right: 10%;
     bottom: 10%;
 }
 
@@ -219,14 +219,12 @@ nav .nav-bar{
 .row{
     height: 15vh;
 }
-.col, .col-md-3{
+.col{
     
     position: relative;
     margin: 0 15px;
 }
-.hide{
-    opacity: 0;
-}
+
 
 
 .box{
@@ -273,7 +271,7 @@ nav .nav-bar{
 }
 
 .box-icon{
-    width: 7%;
+    width: 10%;
     bottom: 0;
     right: 0;
     position: absolute;
